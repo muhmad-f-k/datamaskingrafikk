@@ -1,3 +1,17 @@
-h1{
-    color: red;
+body{
+    background-color: rgb(135, 135, 143);
+}
+#trianglecanvas {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgb(161, 168, 168);
+    height: 600px;
+    width: 800px;
+
+
+  
 }

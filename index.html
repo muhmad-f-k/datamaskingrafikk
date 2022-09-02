@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Øvingsoppgaver - Modul 1</title>
     <link rel="stylesheet" href="src/css/normalize.css" />
     <link rel="stylesheet" href="src/css/style.css" />
   </head>
-  <body>
-    <h1>hello</h1>
+  <!-- Bruker onload for den sørger for at JS blir executed rett etter pagen blir ferdig loaded - det gjør at vi kan ha js filen hvor som helst-->
+  <body onload="Inittriangle();">
+    <canvas id="trianglecanvas" height="600" width="800"> </canvas>
+
+    <!--Kjører JS etter Canvas siden vi vil at canvas skal loads opp før JS- Grunnen vi gjør det er for JS loads umiddelbart og det prøver vi å unngå ved å ha den 
+etter canvas- TIPS når man bruker onload så vil det ikke spille noen rolle for den vil pause Js til siden er ferdig loaded  -->
     <script src="src/js/main.js"></script>
   </body>
 </html>
